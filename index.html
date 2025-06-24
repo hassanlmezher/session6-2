@@ -14,7 +14,7 @@
         .mainsec{
             width: 1349px;
             height: 700px;
-            background-image: url(backgroundmain.png);
+            background-image: url(first1.png);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -27,13 +27,13 @@
             height: 50px;
         }
         .zaralogo{
-            width: 90px;
+            width: 100px;
             padding-left: 30px;
 
         }
         .mainbutton{
             border: none;
-            color: black;
+            color: white;
             background-color: transparent;
             font-size: 18px;
         }
@@ -46,13 +46,13 @@
         .maindiv3{
             margin-right: 80px;
             width: 150px;
-            border-bottom: 2px solid black;  
-            color: black;  
+            border-bottom: 2px solid white;  
+            color: white;  
         }
         .mainsearch{
             background-color: transparent;
             border: none;
-            color: black;
+            color: white;
         }
         .sec2{
             display: flex;
@@ -151,7 +151,7 @@
             background-color: lightgrey;
         }
         .sec4p1{
-            color: white;
+            color: lightgrey;
             font-size: 35px;
         }
         .sec4input1{
@@ -161,13 +161,69 @@
             width: 500px;
             font-size: 16px;
             padding-bottom: 20px;
-            border-bottom: 2px solid white;
+            border-bottom: 2px solid lightgrey;
         }
         .sec5{
-            border: 2px solid red;
             height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
         }
-        
+        .sec5iner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .sec5p1{
+            font-size: 37px;
+            color: darkred;
+        }
+        .sec5img{
+            width: 250px;
+        }
+        .ineriner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+        }
+        .sec5p2{
+            color: darkred;
+            
+        }
+        .sec6{
+            border-radius: 15px;
+            height: 120px;
+            background-image: url(sec6.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .sec6div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            color: white;
+            font-size: 14px;
+        }
+        .sec6div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            color: white;
+            font-size: 13px;
+            gap: 5px;
+        }
     </style>
 </head>
 <body>
@@ -182,6 +238,7 @@
             </div>
             <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
         </header>
+        <div class="lastdiv"><img class="lastpic" src="zaralogo.png" alt="zaralogo"/></div>
     </section>
     <section class="sec2">
         <div class="sec2div1">
@@ -216,10 +273,25 @@
     <section class="sec5">
         <p class="sec5p1">Gallery</p>
         <div class="sec5iner">
-            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
-            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
-            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
-            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
+            <div class="ineriner"><img class="sec5img" src="last1.png" alt="last"/><p class="sec5p2">2018 Winter Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last2.png" alt="last"/><p class="sec5p2">2019 Fall Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last3.png" alt="last"/><p class="sec5p2">2017 Summer Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last4.png" alt="last"/><p class="sec5p2">2020 Spring Collection</p></div>
+        </div>
+    </section>
+    <section class="sec6">
+        <div class="sec6div1">
+            <p>INSTAGRAM</p>
+            <p>TWITTER</p>
+            <p>YOUTUBE</p>
+            <p>PINTEREST</p>
+        </div>
+        <div class="sec6div2">
+            <p>COOKIES SETTING</p>
+            <p>|</p>
+            <p>PRIVACY AND COOKIES POLICY</p>
+            <p>|</p>
+            <p>TERMS OF USA</p>
         </div>
     </section>
 </body>
