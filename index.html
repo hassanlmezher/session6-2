@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .mainsec{
+            width: 1349px;
+            height: 700px;
+            background-image: url(first1.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        .mainheader{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+        .zaralogo{
+            width: 100px;
+            padding-left: 30px;
+
+        }
+        .mainbutton{
+            border: none;
+            color: white;
+            background-color: transparent;
+            font-size: 18px;
+        }
+        .maindiv2{
+            display: flex;
+            width: 800px;
+            padding-left: 250px;
+            gap: 90px;
+        }
+        .maindiv3{
+            margin-right: 80px;
+            width: 150px;
+            border-bottom: 2px solid white;  
+            color: white;  
+        }
+        .mainsearch{
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+        .sec2{
+            margin-top: 5px;
+            border-top: 1px solid  darkred;
+            display: flex;
+            height: 500px;
+            width: 1349px;
+            border-bottom: 1px solid darkred;
+            border-radius: 20px;
+        }
+        .sec2div1{
+            height: 100%;
+            width: 50%;
+            padding-top: 150px;
+            padding-left: 60px;
+            
+        }
+        .sec2div2{
+            height: 100%;
+            width: 50%;
+            padding-top: 40px;
+            padding-left: 30px;
+        }
+        .sec2p1{
+            font-size: 17px;
+            color: darkred;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2p2{
+            color: darkred;
+            font-size: 16px;
+            padding-top: 13px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2p3{
+            color: darkred;
+            font-size: 16px;
+            padding-top: 35px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2button1{
+            border: none;
+            color: white;
+            background-color: darkred;
+            width: 130px;
+            height: 40px;
+        }
+        .sec2div3{
+            padding-top: 30px;
+        }
+        .iner1{
+            padding-top: 30px;
+        }
+        .scndpic{
+            width: 70%;
+            padding-left: 100px;
+            border-radius: 20px;
+        }
+        .sec3div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:30px;
+        }
+        .sec3title{
+            color: darkred;
+            font-size: 30px;
+        }
+        .sec3div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .inter2{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .inter1img{
+            width: 400px;
+            border: 4px solid darkred;
+            border-radius: 30px;
+        }
+        .inter2img1{
+            width: 430px;
+            height: 260px;
+            border: 4px solid darkred;
+            border-radius: 30px;
+        }
+        .inter2img2{
+            border-radius: 30px;
+            width: 430px;
+            height: 260px;
+            border: 4px solid darkred;
+        }
+        .sec4{
+            border-bottom: 4px solid white;
+            border-radius: 20px;
+            border-top: 4px solid white;
+            height: 250px;
+            margin-top: 30px;
+            background-image: url(sec4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        body{
+            background-color: lightgrey;
+        }
+        .sec4p1{
+            color: lightgrey;
+            font-size: 35px;
+        }
+        .sec4input1{
+            border:none;
+            background-color: transparent;
+            color: white;
+            width: 500px;
+            font-size: 16px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid lightgrey;
+        }
+        .sec5{
+
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .sec5iner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .sec5p1{
+            font-size: 37px;
+            color: darkred;
+        }
+        .sec5img{
+            width: 250px;
+        }
+        .ineriner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+        }
+        .sec5p2{
+            color: darkred;
+            
+        }
+        .sec6{
+            border-bottom: 1px solid darkred;
+            border-bottom: 4px solid black;
+            height: 120px;
+            background-color: rgb(114, 1, 1);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        
+        .sec6div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            color: white;
+            font-size: 14px;
+        }
+        .sec6div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            color: white;
+            font-size: 13px;
+            gap: 5px;
+        }
+        .mainheader1{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .lastdiv{
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lastpic{
+            width: 530px;
+            box-shadow: lightgrey  2px 2px 2px ;
+            padding: 20px;
+        }
+        .mainbutton:hover{
+            border-bottom: 2px solid  white;
+            border-top: 2px solid white;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+        .mainsearch:hover{
+            border-top: 2px solid white;
+            transition: all 0.3s ease;
+            transform: scale(1.05);
+        }
+        .sec2button1:hover{
+            background-color: black;
+            color: darkred;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+        .inter1img:hover{
+            width: 300px;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .inter2img1:hover{
+            width: 300px;
+            height: 200px;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .inter2img2:hover{
+            width: 300px;
+            height: 200px;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .sec4input1:hover{
+            border-top: 2px solid white;
+            padding: 5px;
+            transform: scale(1.05);
+            transition: all 0.3s  ease;
+
+        }
+        .plast:hover{
+            width: 80px;
+            height: 25px;
+            padding: 5px;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+            background-color: black;
+            color: darkred;
+        }
+        .plast1:hover{
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+            background-color: black;
+            color: darkred;
+            height: 25px;
+            padding-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <section class="mainsec">
+        <header class="mainheader1">
+            <div class="mainheader">
+                <div class="maindiv1"><img class="zaralogo" src="zaralogo.png" alt="zaraLogo"/></div>
+                <div class="maindiv2">
+                    <button class="mainbutton">Home</button>
+                    <button class="mainbutton">Blog</button>
+                    <button class="mainbutton">Shops</button>
+                    <button class="mainbutton">Contact Us</button>
+                </div>
+                <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
+                </div>
+            <div class="lastdiv"><img class="lastpic" src="zaralogo.png" alt="zaralogo"/></div>
+        </header>
+    </section>
+    <section class="sec2">
+        <div class="sec2div1">
+            <strong class="sec2p1">Shope the lastest trends with Zara's new in collection</strong>
+            <p class="sec2p3">Shop the lastest clothing trends with our weekly edit of what's</p>
+            <p class="sec2p2">new in online Zara. From our lastest Woman collection and</p>
+            <p class="sec2p2">TRF lines, we have dresses, jeans, shoes, bags and more to suit</p>
+            <p class="sec2p2">every woman and every occasion. Explore the lastest fashion</p>
+            <p class="sec2p2">trends here and now with us.</p>
+            <div class="iner1"><button class="sec2button1">See More</button></div>
+        </div> 
+        <div class="sec2div2">
+            <img class="scndpic" src="second.jpg" alt="secondpic"/>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="sec3div1">
+            <p class="sec3title">Category</p>
+        </div>
+        <div class="sec3div2">
+            <div class="inter1"><img class="inter1img" src="triple1.png" alt="first"/></div>
+            <div class="inter2">
+                <img class="inter2img1" src="triple2.png" alt="scnd"/>
+                <img class="inter2img2" src="triple3.png" alt="third"/>
+            </div>
+        </div>
+    </section>
+    <section class="sec4">
+        <p class="sec4p1">Sign Up For Our Newsletter</p>
+        <input class="sec4input1" type="text" placeholder="Enter Your Email Here"/>
+    </section>
+    <section class="sec5">
+        <p class="sec5p1">Gallery</p>
+        <div class="sec5iner">
+            <div class="ineriner"><img class="sec5img" src="last1.png" alt="last"/><p class="sec5p2">2018 Winter Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last2.png" alt="last"/><p class="sec5p2">2019 Fall Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last3.png" alt="last"/><p class="sec5p2">2017 Summer Collection</p></div>
+            <div class="ineriner"><img class="sec5img" src="last4.png" alt="last"/><p class="sec5p2">2020 Spring Collection</p></div>
+        </div>
+    </section>
+    <section class="sec6">
+        <div class="sec6div1">
+            <p class="plast">INSTAGRAM</p>
+            <p class="plast">TWITTER</p>
+            <p class="plast">YOUTUBE</p>
+            <p class="plast">PINTEREST</p>
+        </div>
+        <div class="sec6div2">
+            <p class="plast1">COOKIES SETTING</p>
+            <p class="plast1">|</p>
+            <p class="plast1">PRIVACY AND COOKIES POLICY</p>
+            <p class="plast1">|</p>
+            <p class="plast1">TERMS OF USA</p>
+        </div>
+    </section>
+</body>
+</html>
