@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .mainsec{
+            width: 1349px;
+            height: 700px;
+            background-image: url(backgroundmain.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        .mainheader{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+        }
+        .zaralogo{
+            width: 90px;
+            padding-left: 30px;
+
+        }
+        .mainbutton{
+            border: none;
+            color: black;
+            background-color: transparent;
+            font-size: 18px;
+        }
+        .maindiv2{
+            display: flex;
+            width: 800px;
+            padding-left: 250px;
+            gap: 90px;
+        }
+        .maindiv3{
+            margin-right: 80px;
+            width: 150px;
+            border-bottom: 2px solid black;  
+            color: black;  
+        }
+        .mainsearch{
+            background-color: transparent;
+            border: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <section class="mainsec">
+        <header class="mainheader">
+            <div class="maindiv1"><img class="zaralogo" src="zaralogo.png" alt="zaraLogo"/></div>
+            <div class="maindiv2">
+                <button class="mainbutton">Home</button>
+                <button class="mainbutton">Blog</button>
+                <button class="mainbutton">Shops</button>
+                <button class="mainbutton">Contact Us</button>
+            </div>
+            <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
+        </header>
+        <p></p>
+        <p></p>
+    </section>
+    
+</body>
+</html>
