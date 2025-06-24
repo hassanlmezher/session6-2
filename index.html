@@ -54,6 +54,120 @@
             border: none;
             color: black;
         }
+        .sec2{
+            display: flex;
+            height: 500px;
+            width: 1349px;
+        }
+        .sec2div1{
+            height: 100%;
+            width: 50%;
+            padding-top: 150px;
+            padding-left: 60px;
+            
+        }
+        .sec2div2{
+            height: 100%;
+            width: 50%;
+            padding-top: 40px;
+            padding-left: 30px;
+        }
+        .sec2p1{
+            font-size: 17px;
+            
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2p2{
+            font-size: 16px;
+            padding-top: 13px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2p3{
+            font-size: 16px;
+            padding-top: 35px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .sec2button1{
+            border: none;
+            background-color: rgb(221, 220, 132);
+            width: 120px;
+            height: 35px;
+        }
+        .sec2div3{
+            padding-top: 30px;
+        }
+        .iner1{
+            padding-top: 30px;
+        }
+        .scndpic{
+            width: 57%;
+        }
+        .sec3div1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .sec3title{
+            font-size: 30px;
+        }
+        .sec3div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .inter2{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .inter1img{
+            width: 400px;
+        }
+        .inter2img1{
+            width: 430px;
+        }
+        .inter2img2{
+            width: 430px;
+            height: 260px;
+        }
+        .sec4{
+            height: 250px;
+            margin-top: 30px;
+            background-image: url(sec4.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        body{
+            background-color: lightgrey;
+        }
+        .sec4p1{
+            color: white;
+            font-size: 35px;
+        }
+        .sec4input1{
+            border:none;
+            background-color: transparent;
+            color: white;
+            width: 500px;
+            font-size: 16px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid white;
+        }
+        .sec5{
+            border: 2px solid red;
+            height: 450px;
+        }
+        
     </style>
 </head>
 <body>
@@ -68,9 +182,45 @@
             </div>
             <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
         </header>
-        <p></p>
-        <p></p>
     </section>
-    
+    <section class="sec2">
+        <div class="sec2div1">
+            <strong class="sec2p1">Shope the lastest trends with Zara's new in collection</strong>
+            <p class="sec2p3">Shop the lastest clothing trends with our weekly edit of what's</p>
+            <p class="sec2p2">new in online Zara. From our lastest Woman collection and</p>
+            <p class="sec2p2">TRF lines, we have dresses, jeans, shoes, bags and more to suit</p>
+            <p class="sec2p2">every woman and every occasion. Explore the lastest fashion</p>
+            <p class="sec2p2">trends here and now with us.</p>
+            <div class="iner1"><button class="sec2button1">See More</button></div>
+        </div> 
+        <div class="sec2div2">
+            <img class="scndpic" src="secondpic.png" alt="secondpic"/>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="sec3div1">
+            <p class="sec3title">Category</p>
+        </div>
+        <div class="sec3div2">
+            <div class="inter1"><img class="inter1img" src="triple1.png" alt="first"/></div>
+            <div class="inter2">
+                <img class="inter2img1" src="triple2.png" alt="scnd"/>
+                <img class="inter2img2" src="triple3.png" alt="third"/>
+            </div>
+        </div>
+    </section>
+    <section class="sec4">
+        <p class="sec4p1">Sign Up For Our Newsletter</p>
+        <input class="sec4input1" type="text" placeholder="Enter Your Email Here"/>
+    </section>
+    <section class="sec5">
+        <p class="sec5p1">Gallery</p>
+        <div class="sec5iner">
+            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
+            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
+            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
+            <div><img class="sec5img" src="" alt=""/><p class="sec5p2"></p></div>
+        </div>
+    </section>
 </body>
 </html>
