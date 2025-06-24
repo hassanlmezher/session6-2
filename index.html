@@ -55,9 +55,13 @@
             color: white;
         }
         .sec2{
+            margin-top: 5px;
+            border-top: 1px solid  darkred;
             display: flex;
             height: 500px;
             width: 1349px;
+            border-bottom: 1px solid darkred;
+            border-radius: 20px;
         }
         .sec2div1{
             height: 100%;
@@ -74,24 +78,27 @@
         }
         .sec2p1{
             font-size: 17px;
-            
+            color: darkred;
             font-family: 'Courier New', Courier, monospace;
         }
         .sec2p2{
+            color: darkred;
             font-size: 16px;
             padding-top: 13px;
             font-family: 'Courier New', Courier, monospace;
         }
         .sec2p3{
+            color: darkred;
             font-size: 16px;
             padding-top: 35px;
             font-family: 'Courier New', Courier, monospace;
         }
         .sec2button1{
             border: none;
-            background-color: rgb(221, 220, 132);
-            width: 120px;
-            height: 35px;
+            color: white;
+            background-color: darkred;
+            width: 130px;
+            height: 40px;
         }
         .sec2div3{
             padding-top: 30px;
@@ -100,15 +107,18 @@
             padding-top: 30px;
         }
         .scndpic{
-            width: 57%;
+            width: 70%;
+            padding-left: 100px;
+            border-radius: 20px;
         }
         .sec3div1{
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 10px;
+            margin-top:30px;
         }
         .sec3title{
+            color: darkred;
             font-size: 30px;
         }
         .sec3div2{
@@ -134,6 +144,8 @@
             height: 260px;
         }
         .sec4{
+            border-bottom: 1px solid darkred;
+            border-radius: 20px;
             height: 250px;
             margin-top: 30px;
             background-image: url(sec4.jpg);
@@ -164,6 +176,7 @@
             border-bottom: 2px solid lightgrey;
         }
         .sec5{
+
             height: 450px;
             display: flex;
             flex-direction: column;
@@ -196,6 +209,8 @@
             
         }
         .sec6{
+            border-bottom: 1px solid darkred;
+            border-radius: 20px;
             border-radius: 15px;
             height: 120px;
             background-image: url(sec6.jpg);
@@ -208,6 +223,8 @@
             align-items: center;
             gap: 30px;
         }
+        
+        
         .sec6div1{
             display: flex;
             justify-content: center;
@@ -224,21 +241,41 @@
             font-size: 13px;
             gap: 5px;
         }
+        .mainheader1{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .lastdiv{
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lastpic{
+            width: 530px;
+            box-shadow: lightgrey  2px 2px 2px ;
+            padding: 20px;
+        }
+        
+
     </style>
 </head>
 <body>
     <section class="mainsec">
-        <header class="mainheader">
-            <div class="maindiv1"><img class="zaralogo" src="zaralogo.png" alt="zaraLogo"/></div>
-            <div class="maindiv2">
-                <button class="mainbutton">Home</button>
-                <button class="mainbutton">Blog</button>
-                <button class="mainbutton">Shops</button>
-                <button class="mainbutton">Contact Us</button>
-            </div>
-            <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
+        <header class="mainheader1">
+            <div class="mainheader">
+                <div class="maindiv1"><img class="zaralogo" src="zaralogo.png" alt="zaraLogo"/></div>
+                <div class="maindiv2">
+                    <button class="mainbutton">Home</button>
+                    <button class="mainbutton">Blog</button>
+                    <button class="mainbutton">Shops</button>
+                    <button class="mainbutton">Contact Us</button>
+                </div>
+                <div class="maindiv3"><input class="mainsearch" type="text" placeholder="Search"/></div>
+                </div>
+            <div class="lastdiv"><img class="lastpic" src="zaralogo.png" alt="zaralogo"/></div>
         </header>
-        <div class="lastdiv"><img class="lastpic" src="zaralogo.png" alt="zaralogo"/></div>
     </section>
     <section class="sec2">
         <div class="sec2div1">
@@ -251,7 +288,7 @@
             <div class="iner1"><button class="sec2button1">See More</button></div>
         </div> 
         <div class="sec2div2">
-            <img class="scndpic" src="secondpic.png" alt="secondpic"/>
+            <img class="scndpic" src="second.jpg" alt="secondpic"/>
         </div>
     </section>
     <section class="sec3">
